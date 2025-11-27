@@ -1,0 +1,73 @@
+# ============================
+# Python / Django
+# ============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Django specific
+*.sqlite3
+db.sqlite3
+/media/
+staticfiles/
+static/
+
+# Django secret keys & env files
+.env
+.env.*
+*.env
+secret_key.txt
+
+
+# ============================
+# Virtual environment
+# ============================
+venv/
+env/
+.venv/
+ENV/
+
+
+# ============================
+# Node / React (Vite)
+# ============================
+node_modules/
+dist/
+build/
+*.local
+
+
+# ============================
+# Editor / IDE files
+# ============================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+
+# ============================
+# OS files
+# ============================
+Thumbs.db
+desktop.ini
+
+
+# ============================
+# Backup & misc
+# ============================
+*.bak
+*.temp
+*.tmp
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
